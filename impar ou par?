@@ -1,0 +1,14 @@
+void main() {
+    Scanner sc = new Scanner(System.in);
+    IO.println("Digite um numero para verificar se é impar ou par");
+    int num1 = sc.nextInt();
+
+    int i = num1; // 1. Inicialização
+    while (num1 != 0) { // 2. Condição
+        if (i % 2 == 0) {
+            System.out.println(i + " é par.");
+        } else {
+            System.out.println(i + " é ímpar.");
+        }
+        i = sc.nextInt();
+    }}
