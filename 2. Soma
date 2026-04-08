@@ -1,0 +1,14 @@
+void main() {
+    Scanner sc = new Scanner(System.in);
+    IO.println("Digite um numero para somar os valores ate esse numero");
+    int num = sc.nextInt();
+    int c = 1;
+    int r = 0;
+
+    while (c <= num) {
+        IO.println(c);
+        r = c + r;
+        c++;
+}
+    IO.println(r);
+}
