@@ -1,0 +1,13 @@
+import static java.lang.Integer.parseInt;
+
+void main() {
+    Scanner sc = new Scanner(System.in);
+    IO.println("Tabuada\n");
+    IO.println("Digite um numero para ser multiplicado ate 10\n");
+    int num = sc.nextInt();
+
+    int i = 1;
+    while (i <= 10) {
+        IO.println(num + "x" + i + "=" + num * i );
+        i++;
+    }}
