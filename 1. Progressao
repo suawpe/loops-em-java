@@ -1,0 +1,9 @@
+void main() {
+    Scanner sc = new Scanner(System.in);
+    IO.println("Contagem\n");
+
+    int i = 1;
+    while (i <= 10) {
+        IO.println(i);
+        i++;
+    }}
