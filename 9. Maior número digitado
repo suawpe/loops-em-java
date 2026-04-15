@@ -1,0 +1,16 @@
+void main() {
+    Scanner sc = new Scanner(System.in);
+    double nota = -1;
+    double maior = 0;
+
+    while (nota != 0) {
+        IO.println("Digite um número (ou 0 para parar): ");
+        nota = sc.nextDouble();
+
+        if (nota > maior) {
+            maior = nota;
+        }
+    }
+
+    IO.println("O maior número foi: " + maior);
+}
