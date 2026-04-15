@@ -1,0 +1,21 @@
+void main() {
+  Scanner sc = new Scanner(System.in);
+  int positivos = 0;
+  int negativos = 0;
+  int num = -1;
+
+  while (num != 0) {
+    IO.println("Digite números positivos e negativos (0 para parare ver o resultado): ");
+    num = sc.nextInt();
+
+    if (num > 0) {
+      positivos++;
+    } else if (num < 0) {
+      negativos++;
+    }
+  }
+
+  IO.println("Positivos: " + positivos);
+  IO.println("Negativos: " + negativos);
+
+}
