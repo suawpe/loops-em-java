@@ -1,0 +1,14 @@
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int num = sc.nextInt();
+    IO.println("Digite um numero para realizar uma soma de numeros ate ele");
+    int contador = 2;
+    int resultado = 0;
+
+    while (contador <= num) {
+        resultado = contador + resultado;
+        contador = contador + 2;
+        IO.println(contador);
+    }
+    IO.println(resultado);
+}
