@@ -1,0 +1,8 @@
+void main() {
+    IO.println("Números pares de 0 a 50 \n");
+
+    int i = 0;
+    while (i <= 50) {
+        IO.println(i);
+        i += 2;
+    }}
