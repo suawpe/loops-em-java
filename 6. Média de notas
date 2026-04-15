@@ -1,0 +1,20 @@
+void main() {
+    Scanner sc = new Scanner(System.in);
+    double nota = 0, soma = 0;
+    int contador = 0;
+
+
+    while (nota != -1) {
+        IO.println("Digite sua nota\n");
+        IO.println("Nota: ");
+        nota = sc.nextDouble();
+
+        if (nota != -1) {
+            soma += nota;
+            contador++;
+        }
+    }
+
+    if (contador > 0) {
+        IO.println("Média: " + (soma / contador));
+    }}
